@@ -50,13 +50,20 @@
 	(4) 远端仓库会记录所有提交记录  
 **10. git checkout 从远端检出到本地** 
  
-![](http://t1.aixinxi.net/o_1c76fq3ju934fc1r6h1jmi18mla.png-j.jpg)  
+![](http://t1.aixinxi.net/o_1c76h1op1gva7r31439129h17dma.png-j.jpg)  
 
 **说明：**  
 
 	(1) git reset file  从远端仓库到拉到暂存区
 	(2) git checkout file 从暂存区拉到工作区
 	(3) git checkout HEAD file 从远端仓库拉到本地工作区
+	(4) git add 从工作区提交到暂存区
+	(5) git commit -m 从暂存区提交到远端仓库
+	(6) git commit -am 从工作区直接提交到远端仓库
+**11. git rm file 移除文件**  
+**12. git mv fileName newName 重命名文件**
+　说明：移除或者重命名后，再通过git commit 提交即可　　
+
 
 
 
